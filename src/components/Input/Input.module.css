@@ -1,0 +1,24 @@
+.input {
+    font-size: 14px;
+    background: #424242;
+    display: block;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+.inputWrapper {
+    background: #424242;
+    width: 100%;
+    min-width: 250px;
+    padding: 0.5em 1em;
+    font-size: 1.3em;
+    border-radius: 8px;
+}
+.input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+.input::placeholder {
+    color: #999;
+}
